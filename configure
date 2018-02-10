@@ -1255,6 +1255,7 @@ enable_gpkcsp
 enable_hal
 enable_hhctrl_ocx
 enable_hid
+enable_hidapi
 enable_hidclass_sys
 enable_hlink
 enable_hnetcfg
@@ -18580,6 +18581,7 @@ wine_fn_config_dll hal enable_hal
 wine_fn_config_dll hhctrl.ocx enable_hhctrl_ocx clean,implib htmlhelp
 wine_fn_config_dll hid enable_hid implib
 wine_fn_config_test dlls/hid/tests hid_test
+wine_fn_config_dll hidapi enable_hidapi
 wine_fn_config_dll hidclass.sys enable_hidclass_sys implib hidclass
 wine_fn_config_dll hlink enable_hlink clean,implib
 wine_fn_config_test dlls/hlink/tests hlink_test
